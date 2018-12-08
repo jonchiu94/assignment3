@@ -11,7 +11,7 @@ class heap {
         // vector to store heap elements
         vector<T> heap_vector;
 
-        //Returns the location of parents
+        //Returns the location of parent
         T PARENT(int i) {
             return (i - 1) / 2;
         }
