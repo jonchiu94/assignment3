@@ -9,6 +9,5 @@ int main() {
     heap1.push(13);
     cout<< heap1 << "\r\n";
     heap1.clear();
-    cout<< heap1 << "\r\n";
     return 0;
 }
