@@ -32,7 +32,7 @@ class heap {
                 heapify_down(i);
             }
         }
-        // Recursive Heapify-down algorithm
+        //Recursive algorithm to heapify from one node
         void heapify_down(int i) {
             unsigned int left = LEFT(i);
             unsigned int right = RIGHT(i);
