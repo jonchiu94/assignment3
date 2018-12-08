@@ -8,7 +8,7 @@ using namespace std;
 template <typename T>
 class heap {
     private:
-        // vector to store heap elements
+        // vector to store heap element
         vector<T> heap_vector;
 
         //Returns the location of parent
