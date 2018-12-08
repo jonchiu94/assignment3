@@ -26,7 +26,7 @@ class heap {
             return (2 * i + 2);
         }
 
-        //Heapifies the vector
+        //Heapifies the vectora
         void heapify() {
             for (unsigned int i = 0; i < heap_vector.size(); i++) {
                 heapify_down(i);
